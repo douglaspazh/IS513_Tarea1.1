@@ -1,10 +1,10 @@
 // 8. Crea una función que calcule el factorial de un número con un argumento 
 // posicional, sin usar el operador de multiplicación ( * ).
 
-int factorial (int n) {
-  int resultado = n;
+int factorial (int num) {
+  int resultado = num;
 
-  for (int i = n - 1; i > 0; i--) {
+  for (int i = num - 1; i > 0; i--) {
     int suma = 0;
 
     // Simula las multiplicaciones usando solo sumas
